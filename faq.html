@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="faq-style.css" rel="stylesheet" />
+    <title>Sıkça Sorulanlar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="logo" onclick="returnHome()">DNC Medya</h1>
+        <div class="links">
+          <a href="services.html" class="right-header">Hizmetlerimiz</a>
+          <a href="faq.html" class="right-header">Sıkça Sorulanlar</a>
+          <a href="reach-us.html" class="right-header" id="hizmet"
+            >Bize Ulaşın</a
+          >
+        </div>
+      </div>
+      <div class="quote">
+        <div class="quote-container">
+          <p class="quote-p sentence">
+            "Sadece büyük ölçüde başarısız olmaya cesaret edenler büyük ölçüde
+            başarabilirler."
+          </p>
+          <p class="quote-p person">(Robert F. Kennedy)</p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="one-q-a">
+          <div class="one-q-i">
+            <p class="question faq-part">
+              Nasıl bir web sitesi tasarlıyorsunuz?
+            </p>
+            <img
+              src="images-faq/down-arrow.png"
+              class="icon"
+              onclick="toggleMenu(1)"
+              id="icon-1"
+            />
+          </div>
+          <div class="border-top"></div>
+          <p class="answer faq-part" id="answer-1">
+            -Sizin isteğinize kalmış istediğiniz şekilde tasarlayabiliriz ve siz
+            beğenene kadar üzerinde çalışmaya devam ederiz.
+          </p>
+        </div>
+        <div class="one-q-a">
+          <div class="one-q-i">
+            <p class="question faq-part">
+              Web sitesini nasıl internette yükleyeceğim?
+            </p>
+            <img
+              src="images-faq/down-arrow.png"
+              class="icon"
+              onclick="toggleMenu(2)"
+              id="icon-2"
+            />
+          </div>
+          <div class="border-top"></div>
+          <p class="answer faq-part" id="answer-2">
+            -O kısmı da ekibimiz sizin için halledicektir sizin hiçbir şey için
+            endişelenmenize gerek yoktur.
+          </p>
+        </div>
+        <div class="one-q-a">
+          <div class="one-q-i">
+            <p class="question faq-part">
+              Facebook reklamları yardımcı oluyor mu?
+            </p>
+            <img
+              src="images-faq/down-arrow.png"
+              class="icon"
+              onclick="toggleMenu(3)"
+              id="icon-3"
+            />
+          </div>
+          <div class="border-top"></div>
+          <p class="answer faq-part" id="answer-3">
+            -Evet. Bu konu hakkında tonlarca makale bulabilirsiniz internette.
+            Karınızı artıracağını garanti ederiz.
+          </p>
+        </div>
+        <div class="one-q-a">
+          <div class="one-q-i">
+            <p class="question faq-part">Reklamları nasıl ayarlıyorsunuz?</p>
+            <img
+              src="images-faq/down-arrow.png"
+              class="icon"
+              onclick="toggleMenu(4)"
+              id="icon-4"
+            />
+          </div>
+          <div class="border-top"></div>
+          <p class="answer faq-part" id="answer-4">
+            -Reklamlarınız profesyoneller tarafından hazırlanır ve hedef kitleye
+            güzelce ulaşması için ince ayarlar yapılır.
+          </p>
+        </div>
+      </div>
+
+      <footer class="copyrigth-back">
+        <p class="copyrigth">Copyrigth &copy; 2023 by Can Dizdar</p>
+      </footer>
+    </div>
+    <script src="faq-script.js"></script>
+  </body>
+</html>

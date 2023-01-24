@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>DNC Medya</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="logo" onclick="returnHome()">DNC Medya</h1>
+      <div class="links">
+        <a href="services.html" class="right-header">Hizmetlerimiz</a>
+        <a href="faq.html" class="right-header">Sıkça Sorulanlar</a>
+        <a href="reach-us.html" class="right-header" id="hizmet">Bize Ulaşın</a>
+      </div>
+    </div>
+
+    <div class="bilgilendirme">
+      <h2 class="dncmedya-bilgilendirme">
+        DCN Medya olarak amacımız markanızın kârını ve değerini hak ettiği
+        noktaya çıkarmak. İnce ayrıntısına kadar markanızın inceleyerek tüm
+        eksiklerini kapatmak.
+      </h2>
+    </div>
+
+    <div class="features">
+      <div class="tekil-features">
+        <div class="features-3 guvenilir-hizmet1">
+          <img
+            class="newspaper icons"
+            src="images/customer-service.png"
+            alt="trust"
+          />
+          <h2 class="features-header">GÜVENİLİR HİZMET</h2>
+        </div>
+        <div class="features-3 guvenilir-hizmet2">
+          <p class="features-text">
+            Samimiyetimiz ve dostluğumuzla markanıza hizmet etmekten onur
+            duyacağız.
+          </p>
+        </div>
+      </div>
+      <div class="tekil-features">
+        <div class="features-3 verimli-calisma1">
+          <img
+            class="pressing-machine icons"
+            src="images/hardwork.png"
+            alt="hardwork"
+          />
+          <h2 class="features-header">ÇALIŞMA ŞEKLİMİZ</h2>
+        </div>
+        <div class="features-3 verimli-calisma2">
+          <p class="features-text">
+            Disiplinli çalışmamız, işlerin zamaında bitmesine, becerilerimiz ise
+            işin mükemmel olmasını sağlar.
+          </p>
+        </div>
+      </div>
+      <div class="tekil-features">
+        <div class="features-3 guzel-tasarim1">
+          <img
+            class="desing icons"
+            src="images/illustration.png"
+            alt="desing-icon"
+          />
+          <h2 class="features-header">GÜZEL TASARIM</h2>
+        </div>
+        <div class="features-3 guzel-tasarim2">
+          <p class="features-text guzel-tasarim">
+            Web siteleriniz ve facebook reklamlarınız işin uzmanları tarafınca
+            en güzel şekilde tasarlanır.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="button-div">
+      <button class="reach-button" onclick="goReachUs()">
+        İletişime geçin
+      </button>
+    </div>
+
+    <div class="info">
+      <div class="info-text-button">
+        <p class="info-text">
+          İnternet ticaret adına çok güçlü bir silah adına geldi. Bu yüzden
+          sizlere yardımcı olmak için buradayız. Geleneksel mağazalarını web
+          sitesiyle destekleyenlerin, reklam verelenlerin karlarının artığı
+          istatistiksel olarak kanıtlanmış bir durum. O yüzden biz uzman
+          olduğumuz işi yaparken size de kazancınızı izlemek düşüyor.
+        </p>
+        <img src="images/chart.jpeg" class="chart" />
+      </div>
+      <button class="info-service" onclick="goService()">Hizmetlerimiz</button>
+    </div>
+
+    <footer class="copyrigth-back">
+      <p class="copyrigth">Copyrigth &copy; 2023 by Can Dizdar</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
